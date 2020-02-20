@@ -1,4 +1,4 @@
-# EtcCodes by Dev.SCV
+# EtcCodes
 
 개인 소개
 ---------
