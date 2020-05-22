@@ -12,7 +12,13 @@ import kotlinx.android.synthetic.main.activity_popular_shopping_mall.*
 import kotlinx.android.synthetic.main.view_top_simple_header.*
 
 /*인기 쇼핑몰 정렬순 
-대이터 바인딩 예제 */
+대이터 바인딩 예제 
+ build.gradle에 추가
+ dataBinding {
+        enabled = true
+ }
+    */
+
 
 
 class PopularShoppingMallActivity : BaseActivity() {
