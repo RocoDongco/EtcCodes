@@ -2,7 +2,7 @@ SV650X 호작질 리스트 정리
 
 1. 위멧 테크 바엔드 미러
 2. 요시무라 슬립온 R77카본 머플러 [구변 완료] -> 96DB
-<img src="https://user-images.githubusercontent.com/14155214/83587789-dc668e80-a58a-11ea-896d-70d5e2d7a252.gif" width="90%"></img>
+<img src="https://user-images.githubusercontent.com/14155214/83587789-dc668e80-a58a-11ea-896d-70d5e2d7a252.gif" width="40%"></img>
 
 3. bmc fm572/04 에어필터 
 4. 스즈키 정품 언더 커버
