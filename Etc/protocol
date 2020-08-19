@@ -1,0 +1,29 @@
+import UIKit
+
+//최초 프로토콜
+protocol CardValue {
+    func go(to : String)
+}
+//확장형
+protocol payDay {
+    var numberOfPayDay: Int { get }
+}
+
+
+protocol money: payDay, CardValue { }
+
+struct human: money {
+    var numberOfPayDay: Int = 0
+    
+    func go(to: String) {
+         print("\(to)(으)로 갑니다")
+    }
+
+}
+
+var car = human(numberOfPayDay: 9)
+car.go(to: "한강 바닥")
+print(car.numberOfPayDay)
+
+//대충 프로토콜로 상속 가능하다
+// 대충 얼마 받아도 한강 바닥 갈 가능성이 크다.. 대충 그렇다..
