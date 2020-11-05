@@ -33,7 +33,7 @@ struct GoodsListVo : Decodable {
     var factory: String?
     var smallImageUrl : String?
     var dd_name:String?
-    var dd_code:QuantumValue?
+    var dd_code:TestValue?
     
     
     init?(_ data: [String: Any]) {
