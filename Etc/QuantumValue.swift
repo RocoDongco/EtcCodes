@@ -68,13 +68,13 @@ struct GoodsListVo : Decodable {
         factory = data["factory"] as? String? ?? ""
         smallImageUrl = data["smallImageUrl"] as? String? ?? ""
         dd_name = data["dd_name"] as? String? ?? ""
-        dd_code = data["dd_code"] as? QuantumValue
+        dd_code = data["dd_code"] as? TestValue
     }
     
 }
 
 
-enum QuantumValue: Decodable {
+enum TestValue: Decodable {
 
     case int(Int), string(String)
 
@@ -89,10 +89,10 @@ enum QuantumValue: Decodable {
             return
         }
 
-        throw QuantumError.missingValue
+        throw TestValue.missingValue
     }
 
-    enum QuantumError:Error {
+    enum TestValue:Error {
         case missingValue
     }
 }
