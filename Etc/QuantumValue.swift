@@ -2,6 +2,7 @@
 //예시)dd_code가 불러오는 곳이 다른 경우 또는 Int, String인 경우 에러가 나는 경우가 있다 
 //이 방식을 사용 시 받아오는 값이 달라도 문제 없이 사용 가능 
 //선행 되어야 하는 것 (using: String.Encoding.utf8)! 사용 필수
+//TestValue <-- 구문확인 하면 됨
 
 struct GoodsListVo : Decodable {
     var cashMinPrc: String?
